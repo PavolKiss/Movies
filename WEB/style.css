@@ -3,6 +3,7 @@ body{
 }
 
 .d-block{
+    border-radius: 15px;
     opacity: 0.5;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -14,4 +15,7 @@ body{
     zoom: 1;
     filter: alpha(opacity=150);
     opacity: 1;
+}
+#carouselExampleFade{
+    margin-top: 80px;
 }
